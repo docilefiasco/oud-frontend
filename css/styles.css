@@ -336,13 +336,13 @@ a:hover {
 }
 
 .navbar .navbar-brand {
-	padding-top: 0.25rem;
+	padding-top: 0.20rem;
 	padding-bottom: 0.25rem;
 }
 
 .navbar .logo-image img {
-    width: 108px;
-	height: 32px;
+    width: 28.75px;
+	height: 51px;
 }
 
 .navbar .logo-text {
@@ -475,8 +475,8 @@ a:hover {
 /*    Header     */
 /*****************/
 .header {
-	padding-top: 8rem;
-	padding-bottom: 8rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
 	background: url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -492,6 +492,7 @@ a:hover {
 .header .btn-solid-lg {
 	display: block;
 	margin-bottom: 1.375rem;
+    
 }
 
 .header .btn-outline-lg {
@@ -770,12 +771,33 @@ a:hover {
 	padding-bottom: 5rem;
 	background: url('../images/about-background.jpg') center center no-repeat;
 	background-size: cover;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	background-color: #ffd54f;
+	display: flex;
+	font-family: -apple-system,
+	BlinkMacSystemFont,
+	"Segoe UI",
+	Roboto,
+	Oxygen-Sans,
+	Ubuntu,
+	Cantarell,
+	"Helvetica Neue",
+	sans-serif;
+	
+}
+
+.counter ul{
+	list-style-type: none;
 }
 
 .counter h2 {
-	margin-bottom: 1.5rem;
-	color: #ffffff;
-	text-align: center;
+
+	  font-weight: normal;
+	  letter-spacing: .125rem;
+	  text-transform: uppercase;
 }
 
 .counter .hr-heading {
@@ -786,13 +808,22 @@ a:hover {
 }
 
 .counter .list-unstyled {
-	margin-bottom: 6rem;
+	
+	 display: inline-block;
+	 font-size: 1.5em;
+	 list-style-type: none;
+	 padding: 1em;
+	 text-transform: uppercase;
 }
 
 .counter .list-unstyled li {
 	margin-bottom: 2.5rem;
 }
-
+.counter h1{
+	color: #bfc4cd;
+    margin-left: 5rem;
+	align-items: center;
+}
 .counter .list-unstyled .flex-grow-1 {
 	margin-left: 0.5rem;
 }
@@ -827,7 +858,20 @@ a:hover {
 	font-size: 0.875rem;
 	line-height: 1.5rem;
 }
+@media all and (max-width: 768px) {
+	h1 {
+		font-size: 1.5rem;
+	}
 
+	li {
+		font-size: 1.125rem;
+		padding: .75rem;
+	}
+
+	li span {
+		font-size: 3.375rem;
+	}
+}
 
 /************************/
 /*     Testimonials     */
@@ -1090,6 +1134,7 @@ a:hover {
 	padding-bottom: 1rem;
 	background-color: #121015;
 	text-align: center;
+	padding-top: 3rem;
 }
 
 .copyright p,
@@ -1349,19 +1394,19 @@ a:hover {
 
 	/* Header */
 	.header {
-		padding-top: 15rem;
+		padding-top: 10rem;
 		padding-bottom: 13rem;
 		text-align: left;
 	}
 
 	.header .h1-large {
-		font-size: 6rem;
+		font-size: 5rem;
 		line-height: 6.5rem;
 	}
 
 	.header .button-container {
 		margin-top: 7rem;
-		margin-left: 2rem;
+		margin-right: 2rem;
 	}
 	/* end of header */
 
@@ -1529,7 +1574,7 @@ a:hover {
 
 	.header .button-container {
 		margin-top: 8.75rem;
-		margin-left: 3rem;
+		margin-left: 10rem;
 	}
 
 	.header .btn-solid-lg,
@@ -1542,6 +1587,7 @@ a:hover {
 	.header .btn-solid-lg {
 		margin-right: 0.75rem;
 	}
+	
 	/* end of header */
 
 
@@ -1686,3 +1732,5 @@ a:hover {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+
