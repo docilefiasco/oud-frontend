@@ -36,6 +36,17 @@
     <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <style> .loader {
+  position: fixed;
+  background-color: #FFF;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+</style>
 </head>
 <body>
     
@@ -67,16 +78,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#brochure">Brochure</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="article.html">Article Details</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
-                        </ul>
-                    </li>
+                   
                     <li class="nav-item">
                         <a class="nav-link" href="#footer">Contact</a>
                     </li>
@@ -101,6 +103,11 @@
     <!-- end of navigation -->
 
       
+<div class="loader">
+  <img src="./images/dslog.png">
+</div>
+
+    
     <!-- Header -->
     <header id="header" class="header">
         <div class="container">
@@ -135,9 +142,9 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-5">
                     <div class="text-container">
-                        <h2>Mobile app for a major food catering business</h2>
-                        <p>In built table in an rapid blush merits behind on afraid or warmly. In up so discovery my middleton eagerness dejection explained. Estimating excellence ye because this is how it should work contrasted insensible</p>
-                        <a class="read-more no-line green" href="#">Register Here <span class="fas fa-long-arrow-alt-right"></span></a>
+                        <h2>Welcome to Oxford University Debate 2.0</h2>
+                        <p>text related to event goes here along with poster</p>
+                        <a class="read-more no-line green" href="./form1.html">Register Here <span class="fas fa-long-arrow-alt-right"></span></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-7">
@@ -198,8 +205,10 @@
                         <div class="step" id="hours">00 </div>
                      
                         <div class="step" id="minutes">00 </div>
+
+                        <div class="step" id="seconds">00 </div>
                     </div> <!-- end of step-container -->
-                    <p>Abroad no chatty others my silent an. Fat way appear denote who wholly narrow gay settle. Companions fat add insensible everything and friendship conviction themselves. Theirs months ten and more words are  here had</p>
+                    <p>text about brochure</p>
                     <a class="btn-solid-reg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Download The Brochure</a>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -218,21 +227,22 @@
         </div> <!-- end of container -->
     </div> <!-- end of counter -->
     <!-- end of about -->
+ 
+    
  <!-- Footer -->
     <div class="footer" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-col first">
-                        <h6>About Elma</h6>
-                        <p class="p-small">He oppose at thrown desire of no. Announcing impression unaffected day his are unreserved indulgence. Him hard find read are you</p>
+                        <h6>To know more, contact:</h6>
+                        <p class="p-small">abc 1234 <br> efg 45676</p>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col second">
-                        <h6>Links</h6>
+                        <h6>Address</h6>
                         <ul class="list-unstyled li-space-lg p-small">
-                            <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
-                            <li>Menu: <a class="page-scroll" href="#header">Home</a>, <a class="page-scroll" href="#projects">Projects</a>, <a class="page-scroll" href="#services">Services</a>, <a class="page-scroll" href="#contact">Contact</a></li>
+                            <li>something <a href="terms.html">something</a>, <a href="privacy.html">something</a></li>
+                            
                         </ul>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col third">
@@ -242,16 +252,11 @@
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
+                       
                         <span class="fa-stack">
                             <a href="#your-link">
                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                                <i class="fas fa-globe fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
@@ -260,18 +265,13 @@
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
-                        <p class="p-small">We would love to hear from you <a href="mailto:contact@site.com"><strong>contact@site.com</strong></a></p>
+                        <p class="p-small">We would love to hear from you <a href="email"><strong>email.com</strong></a></p>
                     </div> <!-- end of footer-col -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of footer -->  
     <!-- end of footer -->
-
-
-    
-
-    
 
     
 

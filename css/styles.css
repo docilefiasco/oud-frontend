@@ -469,7 +469,47 @@ a:hover {
 	border: none;
 	font-size: 1.25rem;
 }
+.loader {
+	position: fixed;
+	background-color: #FFF;
+	opacity: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
 
+.loader {
+	-webkit-animation: load-out 1s;
+	animation: load-out 1s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes load-out {
+	from {
+		top: 0;
+		opacity: 1;
+	}
+
+	to {
+		top: 100%;
+		opacity: 0;
+	}
+}
+
+@keyframes load-out {
+	from {
+		top: 0;
+		opacity: 1;
+	}
+
+	to {
+		top: 100%;
+		opacity: 0;
+	}
+}
 
 /*****************/
 /*    Header     */
@@ -487,6 +527,9 @@ a:hover {
 	color: #ffffff;
 	font-size: 4rem;
 	line-height: 4.5rem;
+	text-shadow: 0.5px 0.5px 0.5px black,
+	0 0 25px rgb(86, 86, 97),
+	0 0 5px rgb(60, 60, 71);
 }
 
 .header .btn-solid-lg {
@@ -691,6 +734,9 @@ a:hover {
 .basic-5 h2 {
 	color: #ffffff;
 	margin-bottom: 1.5rem;
+	text-shadow: 1px 1px 2px black,
+	0 0 25px rgb(177, 177, 201),
+	0 0 5px rgb(99, 99, 172);
 }
 
 .basic-5 .hr-heading {
@@ -698,6 +744,7 @@ a:hover {
 	margin-right: auto;
 	margin-bottom: 4.5rem;
 	margin-left: auto;
+	
 }
 
 .basic-5 .step-container {
@@ -709,9 +756,13 @@ a:hover {
 	margin-bottom: 1.5rem;
 	padding: 1.75rem 3.25rem;
 	border: 1px solid #ffffff;
-	border-radius: 4px;
+	border-radius: 4px 4px;
 	color: #ffffff;
-	font-size: 2rem;
+	font-size: 1.5rem;
+	text-shadow: 1px 1px 2px black,
+	0 0 25px rgb(177, 177, 201),
+	0 0 5px rgb(99, 99, 172);
+	
 }
 
 .basic-5 .fas {
