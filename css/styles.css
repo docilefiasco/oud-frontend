@@ -520,6 +520,7 @@ a:hover {
 	background: url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
+	background-attachment: fixed;
 }
 
 .header .h1-large {
@@ -729,6 +730,7 @@ a:hover {
 	background: url('../images/process-background.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
+	background-attachment: fixed;
 }
 
 .basic-5 h2 {
