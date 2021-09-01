@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -88,45 +89,44 @@
     <!-- Process -->
     <div class="basic-5" id="brochure">
         <div class="container">
-           
-        
-        <div class="row">
-        <div class="container-contact100">
-          
-                <form class="contact100-form validate-form">
-                   
-                    
 
 
-                    <div class="container-contact100-form-btn center">
-                        <div class="wrap-contact100-form-btn">
-                            <div class="contact100-form-bgbtn"></div>
-                            <button class="contact100-form-btn">
-                                <span >
-                                  <a href="./success.html">Click Here to Pay</a> 
-                                    <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-                                </span>
-                            </button>
+            <div class="row">
+                <div class="container-contact100">
+
+                    <form class="contact100-form validate-form">
+
+
+
+
+                        <div class="container-contact100-form-btn center">
+                            <div class="wrap-contact100-form-btn">
+                                <div class="contact100-form-bgbtn"></div>
+                                <button class="contact100-form-btn">
+                                    <span>
+                                     <a href="./index1.html">Go to Homepage</a> 
+                                        <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+
+                </div>
+            </div>
             
-        </div>
-        </div>
-   <style>
+            <style>
+                .center {
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                }
+            </style>
 
-
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-</style>
-
-</div> <!-- end of container -->
+        </div> <!-- end of container -->
 
     </div> <!-- end of basic-5 -->
     <!-- end of process -->
@@ -146,46 +146,47 @@
 
 
 
-<!-- Scripts -->
-<script src="{% static 'js/bootstrap.min.js' %}"></script> <!-- Bootstrap framework -->
 
-<script src="{% static 'js/purecounter.min.js' %}"></script> <!-- Purecounter counter for statistics numbers -->
-<script src="{% static 'js/scripts.js' %}"></script> <!-- Custom scripts -->
-<!--===============================================================================================-->
-<script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
-<!--===============================================================================================-->
-<script src="{% static 'vendor/animsition/js/animsition.min.js' %}"></script>
-<!--===============================================================================================-->
-<script src="{% static 'vendor/bootstrap/js/popper.js' %}"></script>
-<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
-<!--===============================================================================================-->
-<script src="{% static 'vendor/select2/select2.min.js' %}"></script>
-<script>
-    $(".selection-2").select2({
-        minimumResultsForSearch: 20,
-        dropdownParent: $('#dropDownSelect1')
-    });
-</script>
-<!--===============================================================================================-->
-<script src="{% static 'vendor/daterangepicker/moment.min.js' %}"></script>
-<script src="{% static 'vendor/daterangepicker/daterangepicker.js' %}"></script>
-<!--===============================================================================================-->
-<script src="{% 'vendor/countdowntime/countdowntime.js' %}"></script>
-<!--===============================================================================================-->
-<script src="js/main.js"></script>
+    <!-- Scripts -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script> <!-- Bootstrap framework -->
+    
+    <script src="{% static 'js/purecounter.min.js' %}"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="{% static 'js/scripts.js' %}"></script> <!-- Custom scripts -->
+    <!--===============================================================================================-->
+    <script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
+    <!--===============================================================================================-->
+    <script src="{% static 'vendor/animsition/js/animsition.min.js' %}"></script>
+    <!--===============================================================================================-->
+    <script src="{% static 'vendor/bootstrap/js/popper.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+    <!--===============================================================================================-->
+    <script src="{% static 'vendor/select2/select2.min.js' %}"></script>
+    <script>
+        $(".selection-2").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+    </script>
+    <!--===============================================================================================-->
+    <script src="{% static 'vendor/daterangepicker/moment.min.js' %}"></script>
+    <script src="{% static 'vendor/daterangepicker/daterangepicker.js' %}"></script>
+    <!--===============================================================================================-->
+    <script src="{% 'vendor/countdowntime/countdowntime.js' %}"></script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-23581568-13');
-</script>
-</body>
-
-</html>
+        gtag('config', 'UA-23581568-13');
+    </script>
+    </body>
+    
+    </html>

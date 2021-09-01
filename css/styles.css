@@ -147,9 +147,9 @@ a {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid #7dc22b;
+	border: 1px solid #312f28;
 	border-radius: 4px;
-	background-color: #7dc22b;
+	background-color:  #a9a58d;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -337,7 +337,7 @@ a {
 .basic-5 {
 	padding-top: 9.5rem;
 	padding-bottom: 9rem;
-	background: url('../images/process-background.jpg') center center no-repeat;
+	background: url('../images/union.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 	background-attachment: fixed;
@@ -567,3 +567,4 @@ a {
 			}
 
 			/* end of general styles */
+		}}}

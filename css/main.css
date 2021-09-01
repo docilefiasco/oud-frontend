@@ -44,7 +44,7 @@ a {
   font-family: Poppins-Regular;
   font-size: 14px;
   line-height: 1.7;
-  color: #7dc22b;
+  color: #312f28 ;
   margin: 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -229,7 +229,7 @@ iframe {
   display: block;
   font-family: Poppins-Bold;
   font-size: 39px;
-  color: #7dc22b;
+  color: #312f28;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 44px;
@@ -243,7 +243,7 @@ iframe {
 .wrap-input100 {
   width: 100%;
   position: relative;
-  border-bottom: 2px solid #b6a9a9;
+  border-bottom: 2px solid #6d6868;
   padding-bottom: 13px;
   margin-bottom: 27px;
   text-align: left;
@@ -252,7 +252,7 @@ iframe {
 .label-input100 {
   font-family: Poppins-Regular;
   font-size: 13px;
-  color: #e2dcdc;
+  color: #312f28;
   line-height: 1.5;
   padding-left: 5px;
 }
@@ -349,10 +349,10 @@ textarea.input100 {
   width: 300%;
   height: 100%;
   background: #a64bf4;
-  background: -webkit-linear-gradient(left, #2b2b4f, #ff0157, #2b2b4f, #ff0157);
-  background: -o-linear-gradient(left, #2b2b4f, #ff0157, #2b2b4f, #ff0157);
-  background: -moz-linear-gradient(left, #2b2b4f, #ff0157, #2b2b4f, #ff0157);
-  background: linear-gradient(left, #2b2b4f, #ff0157, #2b2b4f, #ff0157);
+  background: -webkit-linear-gradient(left, #312f28, #a9a58d, #312f28, #a9a58d);
+  background: -o-linear-gradient(left, #312f28, #a9a58d, #312f28, #a9a58d);
+  background: -moz-linear-gradient(left, #312f28, #a9a58d, #312f28, #a9a58d);
+  background: linear-gradient(left, #312f28, #a9a58d, #312f28, #a9a58d);
   top: 0;
   left: -100%;
 
@@ -522,19 +522,19 @@ textarea.input100 {
 
 .select2-container .select2-results__option[aria-selected="true"] {
   background: #a64bf4;
-  background: -webkit-linear-gradient(right, #2b2b4f, #ff0157);
-  background: -o-linear-gradient(right, #2b2b4f, #ff0157);
-  background: -moz-linear-gradient(right, #2b2b4f, #ff0157);
-  background: linear-gradient(right, #2b2b4f, #ff0157);
+  background: -webkit-linear-gradient(right, #312f28, #a9a58d);
+  background: -o-linear-gradient(right, #312f28, #a9a58d);
+  background: -moz-linear-gradient(right, #312f28, #a9a58d);
+  background: linear-gradient(right, #312f28, #a9a58d);
   color: white;
 }
 
 .select2-container .select2-results__option--highlighted[aria-selected] {
   background: #a64bf4;
-  background: -webkit-linear-gradient(right, #2b2b4f, #ff0157);
-  background: -o-linear-gradient(right, #2b2b4f, #ff0157);
-  background: -moz-linear-gradient(right, #2b2b4f, #ff0157);
-  background: linear-gradient(right, #2b2b4f, #ff0157);
+  background: -webkit-linear-gradient(right, #312f28, #a9a58d);
+  background: -o-linear-gradient(right, #312f28, #a9a58d);
+  background: -moz-linear-gradient(right,#312f28, #a9a58d);
+  background: linear-gradient(right, #312f28, #a9a58d);
   color: white;
 }
 
